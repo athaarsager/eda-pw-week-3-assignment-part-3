@@ -84,7 +84,7 @@ console.log(totalSupply);
 //    Then log how many boxes were filled, and how many parts are left over.
 console.log('9. Filling boxes with a "while" loop');
 
-i = 0;
+let i = 0;
 let boxes = 0;
 while (i < 572) {
     i++;
@@ -92,4 +92,4 @@ while (i < 572) {
         boxes++;
     }
 }
-console.log(`Total boxes filled: ${boxes}. Parts remaining:${i % 7}`);
+console.log(`Total boxes filled: ${boxes}. Parts remaining: ${i % 7}`);
